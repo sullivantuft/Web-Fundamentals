@@ -1,0 +1,11 @@
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+img {
+    width: 80%;
+}
+body {
+    text-align: center;
+}

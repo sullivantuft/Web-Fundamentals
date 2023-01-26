@@ -1,0 +1,33 @@
+body{
+    background-color: pink;
+    width: 28%;
+    margin: auto;
+    text-align: center;
+   color: white
+    
+    
+
+    
+}
+.left-align{
+    text-align: left;
+    color:black;
+}
+.bigtext{
+    font-size: 3em;
+}
+footer{
+    color:black;
+}
+h1{
+    color:white
+  
+}
+.hover:hover{
+    color:black
+
+}
+#list{
+    text-align: left;
+    
+}
