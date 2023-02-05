@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
 body {
-    text-align: center;
+    
     background-color: #7C9885;
-    color:#FEDC97
+    color:#FEDC97;
+    font-size: 22px;
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
   }
+  .logo{
+    width: 80px;
+   
+  }
+  #logo_link{
+    padding-top: 5px;
+  }   
+  
   header{
     background-color:#7C9885;
   }
@@ -15,6 +28,8 @@ body {
     background-color: #033F63;
     color:#FEDC97;
     text-decoration: none;
+    padding: 35px;
+    
   }
   nav a:hover{
     background-color:#7C9885;
@@ -24,33 +39,36 @@ body {
     background-color: #033F63;
     color: #FEDC97;
     text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
+
+  }
+  .rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+
   }
   .book:hover, .join:hover{
      background-color: #7C9885;
      color: #FEDC97;
     }
 
-  a {
-    color: #FEDC97;
-    margin: 40px;
-    text-align: center
+  h2 {
+      margin: 0;
   }
-  h1 {
-    color: steelblue;
-  }
+
   h4{
     color: #FEDC97;
   }
-  img {
-    width: 800px;
-    border: 4px solid #FEDC97;
-  }
+ 
   p {
     padding: 10px;
   }
   footer {
     background-color: #033F63;
     color: #FEDC97;
+    padding: 25px 50px;
   }
   #content{
     max-width:1600px;
@@ -71,15 +89,21 @@ main section{
 }
 .msg{
   background-color: #033F63;
+  line-height: 1.5em;
+  padding: 35px;
 }
 .home-title{
-  color:#FEDC97
+  color:#FEDC97;
+  font-size: 2em;
+  margin-top: 10px;
 }
 .msg h2{
   color: #FEDC97;
 }
 .msg p{
   color: #FEDC97;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 footer a{
 color: #FEDC97;
@@ -90,6 +114,7 @@ color: #FEDC97;
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 #hero-img{
   width: 100%;
@@ -100,4 +125,13 @@ footer p {
    
 footer p a:hover {
   text-decoration: underline;
-}    
+}   
+footer .social img{
+     padding-top: 15px;
+}
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+main section img {
+  box-sizing: border-box;
+}
