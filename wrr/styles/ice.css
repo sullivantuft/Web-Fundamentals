@@ -1,33 +1,39 @@
-body{
-    background-color: pink;
-    width: 28%;
-    margin: auto;
-    text-align: center;
-   color: white
-    
-    
-
-    
-}
-.left-align{
-    text-align: left;
-    color:black;
-}
-.bigtext{
-    font-size: 3em;
-}
-footer{
-    color:black;
-}
-h1{
-    color:white
+.grid-container {
+    display: grid;
+    margin: 0 auto;
   
-}
-.hover:hover{
-    color:black
-
-}
-#list{
-    text-align: left;
+    grid-template-columns: 1fr 1fr;
+   
+   
+  }
+  h1{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin: auto;
+    z-index: 1;
+    letter-spacing: .4em;
     
-}
+    font-size: 6em;
+  }
+  h2{
+    margin: auto;
+  }
+  img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+  }
+  .item2{
+    padding-top: 600px;
+    color: red;
+    text-align: center;
+    letter-spacing: 2rem;
+    font-size: 5em;
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+  .shadow{
+    background-color: grey;
+    grid-column: 2/3;
+    grid-row:1/2
+  }
