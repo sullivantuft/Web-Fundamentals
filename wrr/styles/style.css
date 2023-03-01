@@ -23,6 +23,29 @@ body {
     display: grid;
     grid-template-columns: 150px auto;
   }
+  .white_header{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .river_title{
+    color: #FEDC97;
+    text-align: center;
+    font-size: 3em;
+  }
+  .rivers_pictures{
+    display:block;
+   margin: auto;
+   width: 500px;
+   border: 5px solid #FEDC97;
+  }
+  .rivers_text{
+    background-color: #033F63;
+    text-align: center;
+   
+
+
+}
   nav {
     background-color: #033F63;
     padding: 10px;
