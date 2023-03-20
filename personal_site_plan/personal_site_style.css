@@ -31,15 +31,19 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 1200px;
+  
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
 }
+.box1 img, .box2 img, .box3 img, .box4 img{
+  box-shadow: 0 0 0 5px #AF7A6D;
+}
 img {
   display: block;
   margin: 0 auto;
+  
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -109,6 +113,7 @@ nav {
   font-size: 1.2em;
   list-style-type: none;
   display: flex;
+ 
  
 }
 
@@ -201,6 +206,7 @@ footer p a:hover {
 footer .social img{
      padding-top: 15px;
      display: flex;
+   
 }
 
 footer a{
@@ -217,6 +223,8 @@ footer a{
 .box1{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-bottom: 50px;
+  
 }
 .box1 h1{
   grid-column: 2/3;
@@ -230,6 +238,7 @@ footer a{
 }
 .box1 img{
   width: 450px;
+ 
 }
 .box2{
   display: grid;
@@ -246,10 +255,12 @@ footer a{
   background-color: var(--paragraph-background-color);
 }
 .box2 img{
-  padding-top: 350px;
+  
   width: 450px;
   grid-column: 1/2;
-  grid-row: 1/3;
+  grid-row: 2/3;
+  margin: auto;
+ 
 
 }
 .box3{
@@ -309,4 +320,8 @@ padding-top: 100px;
   background-color: var(--paragraph-background-color);
   width: 800px;
   margin:0 auto;
+}
+img:hover{
+  
+  transform: scale(1.3);
 }
