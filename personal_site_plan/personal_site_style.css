@@ -70,9 +70,9 @@ header {
   background-color: var(--paragraph-background-color);
   display: grid;
   grid-template-columns: 150px auto;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed;
+  top: 0; 
+  width: 100%; 
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -122,8 +122,8 @@ nav {
   font-size: 1.2em;
   list-style-type: none;
   display: flex;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+  position: fixed; 
+  top: 0; 
   width:100%;
  
  
@@ -230,7 +230,7 @@ footer a{
   }
   .logo{
     width: 85px;
-    position: fixed; /* Set the navbar to fixed position */
+    position: fixed; 
     top: 0;
     left: 0;
     z-index: 1;
